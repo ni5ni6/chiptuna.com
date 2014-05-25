@@ -107,6 +107,10 @@ body {
     font-family: 'Open Sans', serif;
 }
 
+a:hover, a:focus {
+    text-decoration: none;
+}
+
 .nav {
     position: fixed;
     top: 0;
@@ -162,7 +166,7 @@ body {
 
 .item .text {
     top: 40%;
-    width: 600px;
+    width: 620px;
     float: right;
     display: inline-block;
     position: relative;
@@ -202,6 +206,12 @@ body {
     z-index: 9;
     height: 60px;
     width: 40px;
+}
+
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 36px;
+    margin-left: 0 !important;
 }
 
 
