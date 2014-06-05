@@ -125,13 +125,13 @@ a:hover, a:focus {
 
 .nav li a {
     padding: 0 15px;
-    font-size: 15px;
-    color: #C3C3C3;
+    font-size: 18px;
+    color: #666;
     line-height: 90px;
 }
 
 .nav li a.active, .nav li a:hover {
-    color: #555;
+    color: #222;
     background-color: transparent;
 }
 
@@ -164,15 +164,16 @@ a:hover, a:focus {
     position: relative;
 }
 
+.lead {
+    font-size:18px;
+}
+
 .item .text {
     top: 40%;
     width: 620px;
     float: right;
     display: inline-block;
     position: relative;
-    line-height: 27px;
-    color: #666;
-    font-size: 1.25em;
     vertical-align: middle;
 }
 
@@ -214,8 +215,13 @@ a:hover, a:focus {
     margin-left: 0 !important;
 }
 
+.modal-dialog {
+    width: 680px;
+}
 
-
+.modal-content {
+    box-shadow: 0 none;
+}
 
 
 
